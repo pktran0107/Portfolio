@@ -9,10 +9,12 @@ html {
   -ms-text-size-adjust: none;
 }
 
-body {
+body.home-page {
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to bottom, #d8f1ff, #ffffff);
 }
 
 
@@ -21,7 +23,7 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 120px 400px;
+  margin: 100px 400px;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -173,6 +175,8 @@ body {
     .gallery-image {
       width: 100%;
       height: auto;
+      display: block;
+      margin: 0 auto;
     }
 
 
