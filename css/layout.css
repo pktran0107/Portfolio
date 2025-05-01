@@ -21,12 +21,14 @@ body {
 /* Main Page Layout */
 
 #main-content {
-  margin: 225px 425px;
+  margin: 120px 400px;
   display: flex;
   flex-direction: column;
-  gap: 96px;
+  gap: 50px;
 }
-
+#project-header{
+  margin: 10px 90px;
+}
 
 
 
@@ -47,14 +49,16 @@ body {
 
 .portfolio-header-image {
   width: 100%;
-  height: auto;
+  height: 450px;
+  object-fit: cover;
 }
 
 #portfolio-header-text-container {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 20px;
   flex-basis: 50%;
+  margin-top: 70px;
 }
 
 
@@ -71,7 +75,7 @@ body {
 .about-section-content {
   display: flex;
   flex-direction: column;
-  gap: 34px;
+  gap: 25px;
 }
 
 
@@ -218,6 +222,7 @@ body {
     max-width: 100%;
   }
 }
+
 
 
 

@@ -1,0 +1,102 @@
+
+
+<!-- 
+  IMPORTANT! 
+  
+  Keep this file unchanged to use as a template for all future project pages. 
+
+  For every new project you add to your portfolio, make a copy of this file in the
+  'project-pages' folder with a name related to the project.
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/vecteezy_gear-smart-eps-icon.jpg" />
+     <title>Traffic Light Controller</title>
+    <meta name="description" content="Traffic Light Controller">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Portfolio</span>
+        <a class="button" href="mailto:whitevans.eth@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Traffic Light Controller</div>
+        <div class="body-text">FSM-Based miniature Traffic Light System using an MSP432</div>
+        <image class="project-header-image" src="../assets/images/Traffic_Light1.jpg">
+      </div>
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">In this coursework project, I designed and implemented a traffic light controller using a Moore Finite State Machine on an MSP432 microcontroller. The system controls South and West traffic using LED outputs, with timing handled by a SysTick timer at 3MHz. A pedestrian walk signal is integrated into the controller and is triggered through a button press, activating the walk sequence state.</div>
+          <div class="body-text">The SysTick timer created precise delays to control how long each light remained on. Despite initial challenges with faulty hardware and mapping the FSM into C, the final system functioned reliably through all programmed states.</div>
+        </div>
+      </div>
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text"></div>
+        <div class="project-gallery-content">
+            <!-- 
+              Full Width Image:
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+              Half Width Image: 
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Traffic_Light2.jpg.png" class="gallery-image">
+              <span class="image-caption">Programmed in C | Uses Moore Finite State Machine</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/Traffic_Light3.png" class="gallery-image">
+              <span class="image-caption">Traffic Light diagram used</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/Traffic_Light4_States.jpg.png" class="gallery-image">
+              <span class="image-caption">The different states documented on Excel</span>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/peterktran00/" class="icon-link" target="_blank">
+          <image src="../assets/icons/icons8-linkedin.svg" alt="LinkedIn"class="footer-icon"/>
+        </a>
+      <!-- 
+      <a class="icon-link" target="_blank" href="https://twitter.com/">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      -->
+        <a href="mailto:pktran0107@gmail.com" class="icon-link">
+          <image src="../assets/icons/mail.svg" alt="Email"class="footer-icon"/>
+        </a>
+      </div>
+      <div class="footer-text">© 2025 Peter Tran. All rights reserved.</div>
+    </div>
+
+	</body>
+</html>

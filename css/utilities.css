@@ -1,4 +1,22 @@
 
+/*Portfolio page - image sizing*/
+.portfolio-header-image {
+  width: 100%;
+  display: flex;
+  padding: 0px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+/*Traffic Light image resizing*/
+.project-header-image{
+  width: 100%;
+  display: flex;
+  padding: 50px 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
 /* Icons */
 
 .right-arrow-icon {
@@ -8,8 +26,8 @@
 }
 
 .footer-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 a.icon-link {
@@ -18,11 +36,10 @@ a.icon-link {
 
 a.icon-link:hover {
   cursor: pointer;
-  stroke-width: 5;
+  stroke-width: 50;
   margin: 0;
-  transform: rotate(15deg);
+  transform: translate(0px, -10px) scale(1.5);
 }
-
 
 /* Navbar Styling */
 
@@ -38,13 +55,25 @@ a.icon-link:hover {
 }
 
 .nav-title-link {
+  /*color: black;
+  text-decoration: none;*/
+  padding: 8px 16px;
+  border: 3px solid #141414;
+  border-radius: 50px;
   color: black;
   text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  transition:transform 200ms ease-in-out;
 }
 
 .nav-title-link:hover {
-  text-decoration: underline;
+  transform:scale(1.3) rotate(2deg);
+  /*text-decoration: underline;*/
 }
+
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
@@ -67,12 +96,14 @@ a.button {
   display: flex;
   gap: 5px;
   align-items: center;
+  transition:transform 200ms ease-in-out;
 }
 
 a.button:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
+  /*text-decoration: underline;
+  text-decoration-thickness: 2px;*/
   cursor: pointer;
+  transform:scale(1.3) rotate(2deg);
 }
 
 
@@ -80,11 +111,25 @@ a.button:hover {
 
 #footer {
   width: 100%;
+  padding: 20px 50px;
   display: flex;
-  padding: 30px 50px;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  gap: 16px;
+  justify-content: center;
+  gap: 10px;
+  background-color: #e9e9e9;
+  text-align: center;
+  
+}
+.footer-icons {
+  display: flex;             /* Align icons horizontally */
+  justify-content: center;   /* Center icons horizontally */
+  gap: 10px;                 /* Space between icons */
+  align-items: center;
+}
+.footer-text{
+  font-size: 8.5px;
+  color: #515151;
 }
 
 /* Link Styling */

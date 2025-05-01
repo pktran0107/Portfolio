@@ -4,11 +4,11 @@ body {
 
 .nav-title {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 13px;
 }
 
 .button-text {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .body-text {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 500;
 }
 
@@ -46,4 +46,5 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+  font-size: 20px;
 }

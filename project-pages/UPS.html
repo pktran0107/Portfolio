@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+     <link rel="icon" href="../assets/images/vecteezy_gear-smart-eps-icon.jpg" />
+     <title>UPS | Ultrasonic Parametric Speaker</title>
+    <meta name="description" content="Ultrasonic Parametric Speaker">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Portfolio</span>
+        <a class="button" href="mailto:pktran0107@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">UPS | Ultrasonic Parametric Speaker</div>
+        <div class="body-text">A functioning Ultrasonic Parametric speaker capable of transmitting music and other forms of audio</div>
+        <image class="project-header-image" src="../assets/images/UPS_Updated_SpeakerArray.jpg">
+      </div>
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details / Background</div>
+        <div class="project-details-content">
+          <div class="body-text">The goal of this project is to develop a parametric ultrasonic speaker array capable of producing directional audio through sound wave modulation (40kHz). The device enables sound to be heard only withing a targeted area, making it ideal for applications in entertainment, commericial spaces, and museums. Additionally, the system integrates an AI-based face detection camera and robotic arm to help with user interaction.</div>
+          <div class="body-text">To develop our ultrasonic directional speakers, we first needed to understand how sound frequency affects propagation. Audible frequencies, between 20Hz and 20kHz, tends to cover a wide area allowing people within this area to hear it. Although we can't hear ultrasound directly, air can demodulate high freuency modulated waves, making the original audio audible within a narrow beam. By modulating audio onto a 40kHz ultrasonic carrier, we can produce sound that is only heard in targeted areas. For AI-based face detection, we use I2C communication with the laptop's GPU to maximize FPS and processing speed.</div>
+        </div>
+      </div>
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Design | Demo</div>
+        <div class="project-gallery-content">
+            <!-- 
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+            -->
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/UPS_Prototype5_PCB_Front.jpg" class="gallery-image">
+              <span class="image-caption">PCB design | Soldering</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/UPS_Schematic_Diagram.png" class="gallery-image">
+              <span class="image-caption">Schematic Diagram</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/UPS_Prototype4.jpg" class="gallery-image">
+              <span class="image-caption"></span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/UPS_Arm_SpeakerArray.jpg" class="gallery-image">
+              <span class="image-caption">Robotic arm which will be paired with an AI face detection camera</span>
+            </div>
+            <video class="gallery-image" controls>
+              <source src="../assets/images/UPS_DemoVideo.mp4" type="video/mp4">
+              <span class="image-caption">Demo Video</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="footer-icons">
+        <a href="https://www.linkedin.com/in/peterktran00/" class="icon-link" target="_blank">
+          <image src="../assets/icons/icons8-linkedin.svg" alt="LinkedIn"class="footer-icon"/>
+        </a>
+      <!-- 
+      <a class="icon-link" target="_blank" href="https://twitter.com/">
+        <image src="./assets/icons/twitter.svg" class="footer-icon"/>
+      -->
+        <a href="mailto:pktran0107@gmail.com" class="icon-link">
+          <image src="../assets/icons/mail.svg" alt="Email"class="footer-icon"/>
+        </a>
+      </div>
+      <div class="footer-text">© 2025 Peter Tran. All rights reserved.</div>
+    </div>
+
+	</body>
+</html>
